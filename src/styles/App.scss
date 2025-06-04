@@ -1,0 +1,7 @@
+@use './costants/colors' as *;
+
+body {
+  width: 30vw;
+  height: 20vh;
+  background-color: $primary-color;
+}
