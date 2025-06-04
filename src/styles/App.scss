@@ -1,7 +1,29 @@
 @use './costants/colors' as *;
 
 body {
-  width: 30vw;
-  height: 20vh;
   background-color: $primary-color;
+}
+
+.homepage{
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-logo-container{
+  width: 30vw;
+  height: 7vh;
+  text-align: left;
+  img{
+    width: 10vw;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 }

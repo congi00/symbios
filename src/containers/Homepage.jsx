@@ -3,7 +3,7 @@ import "../styles/App.scss"
 
 function HomePage() {
   return (
-    <div className="HomePage">
+    <div className="homepage">
         <Header />
     </div>
   );
