@@ -1,15 +1,15 @@
-@use './costants/colors' as *;
+@use "./costants/colors" as *;
 
 body {
   background-color: $primary-color;
 }
 
-.homepage{
+.homepage {
   width: 100vw;
   height: 100vh;
 }
 
-.header{
+.header {
   width: 100vw;
   height: 7vh;
   display: flex;
@@ -17,11 +17,11 @@ body {
   justify-content: space-between;
 }
 
-.header-logo-container{
+.header-logo-container {
   width: 30vw;
   height: 7vh;
   text-align: left;
-  img{
+  img {
     width: 11vw;
     height: 7vh;
     margin-top: 20px;
@@ -29,7 +29,7 @@ body {
   }
 }
 
-.header-menu-container{
+.header-menu-container {
   width: 70vw;
   height: 7vh;
   text-align: right;
@@ -37,24 +37,24 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: end;
-  div{
+  div {
     margin-right: 60px;
   }
 }
 
-.info-home-section{
+.info-home-section {
   width: 100vw;
   height: 93vh;
 }
 
-.infos-home-text{
+.infos-home-text {
   width: 100vw;
   height: 40vh;
   display: flex;
   flex-direction: row;
 }
 
-.infos-home-title{
+.infos-home-title {
   width: 70vw;
   height: 30vh;
   text-align: left;
@@ -65,4 +65,27 @@ body {
   font-weight: 800;
   display: flex;
   align-items: center;
+}
+.infos-home-subtitles {
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-right: 6vw;
+  padding-top: 60px;
+}
+
+.infos-home-motto {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: italic;
+  background: #6666;
+}
+
+.infos-home-motto-subtitle{
+  font-weight: 500;
+  margin-top: 30px;
+  font-size: 1.2rem;
 }
