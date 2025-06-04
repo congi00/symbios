@@ -7,6 +7,13 @@ function Header() {
         <div className="header-logo-container">
             <img src={logo} />
         </div>
+        <div className='header-menu-container'>
+            <div>About</div>
+            <div>Dianetics</div>
+            <div>Gallery</div>
+            <div>Product</div>
+            <div>Contact</div>
+        </div>
       </div>
     );
   }

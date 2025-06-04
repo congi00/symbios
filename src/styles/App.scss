@@ -22,8 +22,22 @@ body {
   height: 7vh;
   text-align: left;
   img{
-    width: 10vw;
+    width: 11vw;
+    height: 7vh;
     margin-top: 20px;
     margin-left: 20px;
+  }
+}
+
+.header-menu-container{
+  width: 70vw;
+  height: 7vh;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  div{
+    margin-right: 60px;
   }
 }
