@@ -10,7 +10,7 @@ function Header() {
     return (
       <div className="header">
         <div className="header-logo-container">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
         </div>
         <div className='header-menu-container'>
             {headerMenu.voices.map((e) =>

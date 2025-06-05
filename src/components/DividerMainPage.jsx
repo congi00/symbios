@@ -9,7 +9,7 @@ function DividerMainPage() {
       {mainPage.dividerTexts.map((e, i) => (
         <div className="divider-home-text">
           {e}
-          {i< mainPage.dividerTexts.length -1 &&<img src={starDiv} />}
+          {i< mainPage.dividerTexts.length -1 &&<img src={starDiv} alt="start divider"/>}
         </div>
       ))}
     </div>

@@ -1,6 +1,4 @@
 import { homepageTexts } from "../config/texts";
-import RoundedButton from "./buttons/RoundedButton";
-import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 
 function InfosHomeText() {
 
