@@ -10,5 +10,6 @@ export const homepageTexts = {
     firstButton: "Upcoming Events",
     secondButton: "New Releases & Projects",
     moreButton: "More About Us",
+    dividerTexts: ["essere","o non essere","l'arte di essere"]
   },
 };

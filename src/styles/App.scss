@@ -81,7 +81,8 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   font-style: italic;
-  background: #6666;
+  background: $divider-background;
+  color: $primary-color;
 }
 
 .infos-home-motto-subtitle {
@@ -100,4 +101,25 @@ body {
   width: 70%;
   line-height: 25px;
   padding-top: 25px;
+}
+
+.divider-home-container {
+  width: 100vw;
+  height: 12vh;
+  background-color: $divider-background;
+  color: $primary-color;
+  font-size: 5vw;
+  font-weight: 800;
+  padding:3vh 3vw 0 3vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.divider-home-text{
+  display: flex;
+  img{    
+    width: 70px;
+    height: 70px;
+    margin: 1.5vh 1.5vw 0;
+  }
 }
