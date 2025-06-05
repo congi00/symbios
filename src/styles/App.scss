@@ -95,6 +95,7 @@ body {
   padding: 0px 4%;
   display: flex;
   align-items: start;
+  margin-top:10vh
 }
 
 .text_container_arrow_button {
@@ -105,7 +106,7 @@ body {
 
 .divider-home-container {
   width: 100vw;
-  height: 12vh;
+  height: 14vh;
   background-color: $divider-background;
   color: $primary-color;
   font-size: 5vw;
