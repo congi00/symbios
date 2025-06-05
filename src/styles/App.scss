@@ -84,14 +84,20 @@ body {
   background: #6666;
 }
 
-.infos-home-motto-subtitle{
+.infos-home-motto-subtitle {
   font-weight: 500;
   margin-top: 30px;
   font-size: 1.2rem;
 }
 
-.infos-home-buttons{
+.infos-home-buttons {
   padding: 0px 4%;
   display: flex;
   align-items: start;
+}
+
+.text_container_arrow_button {
+  width: 70%;
+  line-height: 25px;
+  padding-top: 25px;
 }
